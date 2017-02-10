@@ -54,13 +54,13 @@ void change_size(int w, int h){
 int main(int argc, char **argv){
 
 	
-	strcpy(names[0],"scene.bmp");
-	strcpy(names[1],"start.bmp");
-	strcpy(names[2],"startr.bmp");
-	strcpy(names[3],"instr.bmp");
-	strcpy(names[4],"instrr.bmp");
-	strcpy(names[5],"exiit.bmp");
-	strcpy(names[6],"exiitr.bmp");
+	strcpy(names[0],"resource/scene.bmp");
+	strcpy(names[1],"resource/start.bmp");
+	strcpy(names[2],"resource/startr.bmp");
+	strcpy(names[3],"resource/instr.bmp");
+	strcpy(names[4],"resource/instrr.bmp");
+	strcpy(names[5],"resource/exiit.bmp");
+	strcpy(names[6],"resource/exiitr.bmp");
 	img = cvCreateImage(cvSize(640,480),IPL_DEPTH_8U,4);
 	selected[0] = true;
 	glutInit(&argc,argv);

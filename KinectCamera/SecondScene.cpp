@@ -9,7 +9,7 @@ int waitForPlayer(Kinect *kinect, IplImage *image){
 	if(!loadING){
 		Bitmap *image;
 		image = new Bitmap;
-		if(!image->loadBMP("loading.bmp")){
+		if(!image->loadBMP("resource/loading.bmp")){
 			printf("game error");
 			exit(0);
 		}
